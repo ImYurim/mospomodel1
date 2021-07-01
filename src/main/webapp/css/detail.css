@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+body{
+	background-color:#493F3C;
+}
+
+.container{
+	padding:40px 20px;
+}
+
+.innercontainer{
+	width:1000px;
+	height:100%;
+	display:flex;
+	flex-wrap:nowrap;
+	justify-content:space-between;
+	margin:0 auto;
+}
+
+.leftcontainer{
+	background-color:white;
+	width:500px;
+	height:100%;
+	border:1px solid white;
+	margin-right:40px;
+	min-width:300px;
+	padding:30px;
+	max-height:800px;
+	min-height:800px;
+	border-radius:2em;
+	display:flex;
+	align-content:center;
+	flex-direction:column;
+	justify-content:center;
+}
+
+.rightcontainer{
+
+	width:500px;
+	height:100%;
+
+	min-width:300px;
+	max-height:800px;
+	min-height:800px;
+	padding:30px;
+	border-radius:2em;
+
+}
+.movieposter{
+	display:flex;
+	justify-content:center;
+
+
+}
+
+.movietitle{
+	margin-top:50px;
+	text-align:center;
+	font-weight:bold;
+}
+
+.spoilercheck{
+	display:flex;
+	flex-wrap:nowrap;
+	color:white;
+	margin-bottom:10px;
+}
+
+.check1{
+	margin-right:20px;
+}
+
+.mycommentdisc{
+	font-weight:bold;
+	margin-bottom:10px;
+	color:white;
+}
+
+.mycomment{
+
+	width:100%;
+	height:180px;
+	border:1px solid black;
+	background-color:white;
+	border-radius:1em;
+	
+}
+.inputcommentcontainer{
+	width:100%;
+	height:100%;
+	padding:10px 2px;
+	display:flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.inputcomment{
+	width:410px;
+	height:160px;
+	border-radius:1em;
+	border:0;
+
+}
+
+.inputcomment:focus{
+	outline:none;
+}
+
+.confirmbutton{
+	display:flex;
+	justify-content:flex-end;
+	margin-top:10px;
+
+}
+.buttonconfirm{
+	background-color:white;
+	color:#493F3C;
+}
+
+
+.commentlistcontainer{
+	margin-top:20px;
+
+	height:500px;
+}
+
+.commentlistdesc{
+	font-weight:bold;
+	color:white;
+	margin-bottom:10px;
+}
+
+.otherspoilercheck{
+	display:flex;
+	flex-wrap:nowrap;
+	color:white;
+	margin-bottom:10px;
+}
+.commentcontenlistcontainer{
+	overflow:auto;
+	height:460px;
+	border-top:1px solid white;
+}
+
+.commentcontainer{
+	width:350px;
+	height:220px;
+}
+
+.commentuser{
+	width:100%;
+	height:30px;
+	color:white;
+}
+
+.commentcontentcontainer{
+	width:100%;
+	height:160px;
+	background-color:white;
+	border-radius:1em;
+	padding-top:3px;
+}
+.commentcontent{
+	width:100%;
+	height:100%;
+	margin:3px 8px;
+}
